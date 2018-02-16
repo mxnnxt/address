@@ -1,7 +1,7 @@
 import string
 import random
 
-times = int(input("Enter the number of times you would like to jig: "))
+times = int(input("Enter the number of times you would like to add: "))
 addy1 = input("Enter Address 1: ")
 
 def addy():
