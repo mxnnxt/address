@@ -5,15 +5,13 @@ from random import getrandbits
 times = int(input("Enter the number of times you would like to jig: "))
 addy1 = input("Enter Address 1: ")
 phone = input("Phone Number Prefix: ")
-
-
-
+#address 1 function
 def addy():
 	size = 4
 	chars1 = string.ascii_uppercase + string.digits
 	chars2 = ''.join(random.choice(chars1) for _ in range(size))
 	print(chars2+" "+addy1)
-
+#address 2 function
 def addy2():
 	numbers = random.sample(range(10), 4)
 	num1 = str((''.join(map(str, numbers))))
