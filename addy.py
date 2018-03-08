@@ -28,6 +28,7 @@ def addy2():
 
 print("")
 print("ADDRESS 1: ")
+text_file.write("ADDRESS 1:" + "\n")
 print("")
 
 for i in range(times):
@@ -36,6 +37,7 @@ for i in range(times):
 
 print("")
 print("ADDRESS 2: ")
+text_file.write("ADDRESS 2:" + "\n")
 print("")
 
 for i in range(times):
@@ -43,6 +45,7 @@ for i in range(times):
 
 print("")
 print("PHONE NUMBER: ")
+text_file.write("PHONE NUMBER:" + "\n")
 print("")
 
 for i in range(times):
@@ -53,6 +56,7 @@ for i in range(times):
 
 print("")
 print("FIRST NAME: ")
+text_file.write("FIRST NAME:" + "\n")
 print("")
 
 for i in range(times):
@@ -63,6 +67,7 @@ for i in range(times):
 
 print("")
 print("LAST NAME: ")
+text_file.write("LAST NAME:" + "\n")
 print("")
 
 for i in range(times):
@@ -71,4 +76,5 @@ for i in range(times):
 	text_file.write(lastName+"\n")
 	print(lastName)
 	
+
 
