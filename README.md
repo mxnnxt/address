@@ -1,5 +1,5 @@
 # Address Jigger
-Jigs all checkout requirements into a txt file - Addy.txt (Adds random chars where required)
+Jigs all checkout requirements into a txt file - Addy.txt - (Adds random chars where required)
 (Python 3)
 
 ## Instructions:
