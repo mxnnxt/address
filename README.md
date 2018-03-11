@@ -1,5 +1,5 @@
 # Address Jigger
-Adds random characters prior to the Address 1 line. Also prints remainder of checkout profile requirements
+Jigs all checkout requirements into a txt file - Addy.txt (Adds random chars where required)
 (Python 3)
 
 ## Instructions:
